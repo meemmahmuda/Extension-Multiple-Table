@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+#table-data {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-data th, #table-data td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+#table-data th {
+  background-color: #f4f4f4;
+}
+
+#table-data td {
+  text-align: center;
+}
