@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     chrome.tabs.sendMessage(
       tabs[0].id,
-      { action: "getTableData" },
+      { action: "getTableData" }
       function (response) {
         const matchingData = response.data;
         const tbody = document.querySelector("#table-data tbody");
